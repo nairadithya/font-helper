@@ -1,0 +1,10 @@
+#+title: Readme
+#+author: Adithya Nair
+
+This is a very simple font installer script, mainly for personal use.
+
+## Usage
+
+#+begin_src bash
+font-helper.py path/to/zip-file
+#+end_src
