@@ -3,7 +3,7 @@
 
 This is a very simple font installer script, mainly for personal use.
 
-## Usage
+** Usage
 
 #+begin_src bash
 font-helper.py path/to/zip-file
