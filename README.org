@@ -12,3 +12,6 @@ This works well for my setup on Fedora. Change the =font_dir= variable in the be
 #+begin_src bash
 font-helper.py path/to/zip-file
 #+end_src
+
+** TODO
+- Maybe pasting the URL to the .zip file just to cleanup stuff.
