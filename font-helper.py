@@ -33,6 +33,9 @@ def main() -> None:
             dest_dir = os.path.join(font_dir, font_name)
             print(new_dir_name, dest_dir)
 
+            # Close the file
+            font_zip.close()
+
             print(f"Done extracting, now moving to {dest_dir}")
             os.rename(new_dir_name, dest_dir)
 
