@@ -1,12 +1,5 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = [
-#     "os",
-#     "pathlib",
-#     "subprocess",
-#     "sys",
-#     "zipfile",
-# ]
 # ///
 
 # It's straightforward enough to use. Just point the script at a zip file
