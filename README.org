@@ -1,7 +1,7 @@
 #+title: Readme
 #+author: Adithya Nair
 
-This a bunch of snippets I use and find useful.
+This is a bunch of snippets I use and find useful.
 
 The python scripts can be run with =uv=
 
