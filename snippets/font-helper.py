@@ -1,3 +1,13 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "os",
+#     "pathlib",
+#     "subprocess",
+#     "sys",
+#     "zipfile",
+# ]
+# ///
 import os
 import pathlib
 import subprocess

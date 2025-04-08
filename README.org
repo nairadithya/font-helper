@@ -4,3 +4,7 @@
 This a bunch of snippets I use and find useful.
 
 The python scripts can be run with =uv=
+
+#+begin_src bash
+uv run <script>.py
+#+end_src
