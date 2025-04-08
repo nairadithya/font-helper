@@ -1,18 +1,4 @@
 #+title: Readme
 #+author: Adithya Nair
 
-This is a very simple font installer script, mainly for personal use.
-
-Note: The default place this moves fonts to is "~/.local/share/fonts/"
-
-This works well for my setup on Fedora. Change the =font_dir= variable in the beginning of the file to suit your preferences or system. 
-
-** Usage
-
-#+begin_src bash
-font-helper.py path/to/zip-file
-#+end_src
-
-** Stuff to do
-- Pasting the URL to the .zip file just to cleanup stuff.
--
+This a bunch of snippets I use and find useful.
