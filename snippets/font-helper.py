@@ -8,6 +8,11 @@
 #     "zipfile",
 # ]
 # ///
+
+# It's straightforward enough to use. Just point the script at a zip file
+# containing fonts and it will install it for you. Change the font_dir variable
+# to your preferred choice.
+
 import os
 import pathlib
 import subprocess
