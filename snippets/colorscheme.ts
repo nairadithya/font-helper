@@ -4,8 +4,7 @@
  * Creates a pseudo-random float in the range [0, 1) using Math.sin
  * of a seed, ensuring a stable output for each unique integer seed.
  */
-document.addEventListener('astro:page-load', () => {
-    function seededRandom(daySeed: number): number {
+function seededRandom(daySeed: number): number {
         const x: number = Math.sin(daySeed) * 10000
         return x - Math.floor(x)
     }
@@ -31,7 +30,7 @@ document.addEventListener('astro:page-load', () => {
 
     const hueSeeded: number = getDailyHueSeeded()
     document.documentElement.style.setProperty('--hue', `${hueSeeded}deg`)
-})
+
 
 function seededRandom(daySeed: number): number {
     const x: number = Math.sin(daySeed) * 10000
