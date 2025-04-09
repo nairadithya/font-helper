@@ -15,7 +15,7 @@ resolutions = [16, 32, 48, 96, 128]
 if len(sys.argv) < 2:
     print(
         """Usage: Use it on an svg to get a list of PNGs in the specified resolution.
-        Example: ext_icon file.svg
+        Example: uvx icon_list.py file.svg
         """
     )
     sys.exit()
